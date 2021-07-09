@@ -1,0 +1,16 @@
+{
+  "name": "ks-redirect",
+  "version": "0.1.0",
+  "description": "Simple web app to trigger the facebook tracking pixel and redirect to facebook",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Carroll",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.5",
+    "dotenv": "^10.0.0",
+    "joi": "^17.4.0"
+  }
+}

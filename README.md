@@ -10,3 +10,4 @@ Be sure to configure the following environment variables.
 - `SERVER_PORT`: Port number the server should run on. Example: `8080`
 - `REDIRECT_TIME`: Number of seconds the redirect page should appear for. Example: `3`
 - `FB_PIXEL_ID`: Pixel ID.  Example: `32432458364877589`
+- `CODE_MAP_URL`: URL that a remote code map is downloaded from on startup.  See `src/codemap.js` for example.  If variable isn't set the local code map will be used.
